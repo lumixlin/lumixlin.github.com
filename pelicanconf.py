@@ -15,15 +15,15 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+THEME = '/home/long/wk/pelican/mytemplate'
+#THEME = '/home/long/pelican-themes/tuxlite_tbs'
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+          ('Python.org', 'http://python.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('@林文龙在奋斗', 'http://weibo.com/u/2116876845'),)
 
 DEFAULT_PAGINATION = 10
 
