@@ -24,21 +24,22 @@
 		</div>
 	</div>
 	<div class="container">
-	<div class="row articleListItem first">
+<div class="container">
+	<div class="row">
+		<div class="span12 articleDetailHeadline">
+			<h1>Markdown note</h1>
+			<h2></h2>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row articleDetail">
 		<div class="span3 articleInfo light"> 
 <p><i class="icon-calendar"></i>&nbsp;Thu 02 January 2014</p> 
 <p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/note.html">note  </a>
 	<a href="/tag/web.html">web  </a>
 </p>		</div>
-		<div class="span6">
-			<h1>
-				<a href="/markdown.html" title="Markdown note" rel="bookmark">
-					Markdown note
-					<i class="icon-chevron-right"></i>
-				</a>
-			</h1>
-			<h3></h3>
-			<p class="text-justify"></p>
+		<div class="span6 articleDetailContent">
 			<ol>
 <li>
 <h3>格式</h3>
@@ -110,82 +111,66 @@
 <li><strong>strong</strong></li>
 <li>
 <ul>
-<li>em *  = 如果有空格的话将被当普通字符 ...</li></ul></li></ul></li></ol>
-		</div>
-	</div>
-
-	<div class="row articleListItem ">
-		<div class="span3 articleInfo light"> 
-<p><i class="icon-calendar"></i>&nbsp;Thu 02 January 2014</p> 
-<p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/note.html">note  </a>
-	<a href="/tag/memo.html">memo  </a>
-</p>		</div>
-		<div class="span6">
-			<h1>
-				<a href="/plan.html" title="2014 Todo" rel="bookmark">
-					2014 Todo
-					<i class="icon-chevron-right"></i>
-				</a>
-			</h1>
-			<h3></h3>
-			<p class="text-justify"></p>
-			<h1>book</h1>
-		</div>
-	</div>
-
-	<div class="row articleListItem ">
-		<div class="span3 articleInfo light"> 
-<p><i class="icon-calendar"></i>&nbsp;Tue 31 December 2013</p> 
-<p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/life.html">life  </a>
-</p>		</div>
-		<div class="span6">
-			<h1>
-				<a href="/start.html" title="Start blogging" rel="bookmark">
-					Start blogging
-					<i class="icon-chevron-right"></i>
-				</a>
-			</h1>
-			<h3></h3>
-			<p class="text-justify"></p>
-			<h1>This is a head</h1>
-<p>sadf
-At the end of 2013, holp for 2014.  </p>
-<p>this is another head</p>
-<h1>head1</h1>
-<h2>head2</h2>
-<h3>head3</h3>
-<h6>head6</h6>
-<p>.
-.
-.
-.<br />
-sdf
-.
-.
-.</p>
-<p>.
-.
-.
-.
-.
-.
-.
-Test</p>
-		</div>
-	</div>
-		<div class="span3"></div>
-		<div class="span6">
-<div class="pagination pagination-large">
-<ul>
-    <li class="disabled"><a href="#">«</a></li>
-
-		<li class="active"><a href="/category/misc.html">1</a></li>
-
-		<li class="disabled"><a href="#">»</a></li>
-
+<li>em *  = 如果有空格的话将被当普通字符</li>
 </ul>
-</div>		</div>
+</li>
+</ul>
+</li>
+<li>
+<h3>段落</h3>
+<ul>
+<li>段落以空行分隔</li>
+<li>自动换行，除非行尾有两空格加回车</li>
+</ul>
+</li>
+<li>
+<h3>链接</h3>
+<ul>
+<li>
+<p>示例</p>
+<div class="highlight"><pre><span class="o">-</span> <span class="n">This</span> <span class="n">is</span> <span class="p">[</span><span class="n">google</span><span class="p">](</span><span class="n">http</span><span class="o">:</span><span class="c1">//google.com &quot;The google link&quot;), an inline link. </span>
+<span class="o">-</span> <span class="n">This</span> <span class="n">is</span> <span class="p">[</span><span class="n">reference</span><span class="p">][</span><span class="n">ref</span><span class="p">]</span> <span class="n">reference</span><span class="o">-</span><span class="n">style</span> <span class="n">link</span>
+<span class="o">-</span> <span class="p">[</span><span class="n">ref</span><span class="p">]</span><span class="o">:</span> <span class="n">http</span><span class="o">:</span><span class="c1">//google.com &quot;The google link&quot;        </span>
+<span class="o">-</span> <span class="err">自动链接</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">http</span><span class="o">:</span><span class="c1">//google.com&gt;</span>
+</pre></div>
 
+
+</li>
+<li>
+<p>This is <a href="http://google.com" title="THe google link">google</a>, an inline link. </p>
+</li>
+<li>This is <a href="http://google.com" title="The google link">reference</a> reference-style link</li>
+<li><strong>自动链接</strong> = <a href="http://google.com">http://google.com</a></li>
+</ul>
+</li>
+<li>
+<h3>图片</h3>
+<ul>
+<li>
+<p>示例</p>
+<div class="highlight"><pre><span class="o">-</span> <span class="o">!</span><span class="p">[</span><span class="n">Alt</span> <span class="n">text</span><span class="p">](</span><span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">img</span><span class="p">.</span><span class="n">jpg</span> <span class="s">&quot;Optional Title&quot;</span><span class="p">)</span>
+<span class="o">-</span> <span class="o">!</span><span class="p">[</span><span class="n">Alt</span> <span class="n">text</span><span class="p">][</span><span class="kt">id</span><span class="p">]</span>
+</pre></div>
+
+
+</li>
+<li>
+<p><img alt="Alt text" src="/path/to/img.jpg" title="Optional Title" /></p>
+</li>
+<li><img alt="Alt text" src="/path/to/img.jpg" title="Optional Title" /></li>
+</ul>
+</li>
+</ol>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row comments">
+		<div class="span3">&nbsp;</div>
+		<div class="span6">
+		</div>
+	</div>
+</div>
 	</div>
 	<footer class="footer">
 		<div class="row">
