@@ -31,7 +31,7 @@ Tags: note,linux
 
 ------
 
-#### System management
+#### Package management
 - `apt-get`
 	+ `install name` = install or update a pakage
 
