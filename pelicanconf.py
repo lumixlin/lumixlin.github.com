@@ -18,7 +18,7 @@ TRANSLATION_FEED_ATOM = None
 THEME = '/home/long/wk/pelican/mytemplate'
 #THEME = '/home/long/pelican-themes/tuxlite_tbs'
 
-SUMMARY_MAX_LENGTH = 18 
+SUMMARY_MAX_LENGTH = 30 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),)

@@ -3,47 +3,46 @@ Title: Markdown note
 Slug: markdown
 Tags: note,web 
 
-#### 格式
-- markdown 内可直接使用HTML标签(block-level)， 标签内不可使用Markdown
-- markdown 内使用HTML标签(block-level)时，首尾标签前后必须空行，并且不能缩进
-- span-level 标签不受限制
-- **强制换行** = 行尾两空格+回车
-- **分隔线** = -----------
+#### Basic
+- the block-level HTML element in markdown tag should be seperated by blank line and the start and end of element should not be indented.
+- the span-level HTML element has no restriction
+- **break line** = end a line with tow spaces and a return
+- **Horizontal rules** = -----------
 
 ----------
 
-#### 列表
-- 示例 
+#### Lists
+- examples
 
-		- 无序列表
-		- 无需列表
-		1. 有序列表
-		2. 有序列表
-		4. 有序列表
+		- unordered list
+		- unordered list
+		1. orderred list
+		2. orderred list
+		4. orderred list
 
-- 有序列表前的序号不影响输出的序号
-
-----------
-
-#### 代码
-- 两个tab缩进生成代码块
-- \`printf()\`生成行内代码 `printf()` 
-- 代码内 `, &` 会被转为entity
+- the actual numbers in list have no effect on HTML output 
 
 ----------
 
-#### 标题
-- 示例 
-
-		# 一级标题
-		## 二级标题
-		### 三级标题
-		###### 六级标题
+#### Code Blocks
+- start with one tabs, continute until it reach a line with no indentity
+- \`printf()\` will produce a code span `printf()` 
+- `, &` will be translated to HTML entity automatically
 
 ----------
 
-#### 强调
-- 示例
+#### Headers
+- examples
+
+		# First Level Header
+		## Second Level Header
+		### Third Level Header
+		###### Sixth Level Header
+
+----------
+
+#### Emphasis
+- examples
 
 		- *em*
 		- **strong**
@@ -51,34 +50,33 @@ Tags: note,web
 
 - *em*
 - **strong**
-- * em *  = 如果有空格的话将被当普通字符
+- \* em *  = \* will be treated as a literal asterisk if it surrounded with space
 
 ----------
 
-#### 段落
-- 段落以空行分隔
-- 自动换行，除非行尾有两空格加回车
+#### Paragraphs 
+- sperated by one or more blank lines
 
 ----------
 
-#### 链接
-- 示例
+#### Link
+- examples
 		
 		- This is [google](http://google.com "The google link"), an inline link. 
 		- This is [reference][ref] reference-style link
 		- [ref]: http://google.com "The google link"		
-		- 自动链接 = <http://google.com>
+		- auto link = <http://google.com>
 
 - This is [google](http://google.com "THe google link"), an inline link. 
 - This is [reference][ref] reference-style link
-- **自动链接** = <http://google.com>
+- **auto link** = <http://google.com>
 
 [ref]: http://google.com "The google link"
 
 ----------
 
-#### 图片
-- 示例
+#### Images
+- examples
 
 		- ![Alt text](/path/to/img.jpg "Optional Title")
 		- ![Alt text][id]
