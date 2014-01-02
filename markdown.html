@@ -40,58 +40,57 @@
 	<a href="/tag/web.html">web  </a>
 </p>		</div>
 		<div class="span6 articleDetailContent">
-			<h4>格式</h4>
+			<h4>Basic</h4>
 <ul>
-<li>markdown 内可直接使用HTML标签(block-level)， 标签内不可使用Markdown</li>
-<li>markdown 内使用HTML标签(block-level)时，首尾标签前后必须空行，并且不能缩进</li>
-<li>span-level 标签不受限制</li>
-<li><strong>强制换行</strong> = 行尾两空格+回车</li>
-<li><strong>分隔线</strong> = -----------</li>
+<li>the block-level HTML element in markdown tag should be seperated by blank line and the start and end of element should not be indented.</li>
+<li>the span-level HTML element has no restriction</li>
+<li><strong>break line</strong> = end a line with tow spaces and a return</li>
+<li><strong>Horizontal rules</strong> = -----------</li>
 </ul>
 <hr />
-<h4>列表</h4>
+<h4>Lists</h4>
 <ul>
 <li>
-<p>示例 </p>
-<div class="highlight"><pre><span class="o">-</span> <span class="err">无序列表</span>
-<span class="o">-</span> <span class="err">无需列表</span>
-<span class="mf">1.</span> <span class="err">有序列表</span>
-<span class="mf">2.</span> <span class="err">有序列表</span>
-<span class="mf">4.</span> <span class="err">有序列表</span>
+<p>examples</p>
+<div class="highlight"><pre><span class="o">-</span> <span class="n">unordered</span> <span class="n">list</span>
+<span class="o">-</span> <span class="n">unordered</span> <span class="n">list</span>
+<span class="mf">1.</span> <span class="n">orderred</span> <span class="n">list</span>
+<span class="mf">2.</span> <span class="n">orderred</span> <span class="n">list</span>
+<span class="mf">4.</span> <span class="n">orderred</span> <span class="n">list</span>
 </pre></div>
 
 
 </li>
 <li>
-<p>有序列表前的序号不影响输出的序号</p>
+<p>the actual numbers in list have no effect on HTML output </p>
 </li>
 </ul>
 <hr />
-<h4>代码</h4>
+<h4>Code Blocks</h4>
 <ul>
-<li>两个tab缩进生成代码块</li>
-<li>`printf()`生成行内代码 <code>printf()</code> </li>
-<li>代码内 <code>, &amp;</code> 会被转为entity</li>
+<li>start with one tabs, continute until it reach a line with no indentity</li>
+<li>`printf()` will produce a code span <code>printf()</code> </li>
+<li><code>, &amp;</code> will be translated to HTML entity automatically</li>
 </ul>
 <hr />
-<h4>标题</h4>
+<h4>Headers</h4>
 <ul>
 <li>
-<p>示例 </p>
-<div class="highlight"><pre><span class="c"># 一级标题</span>
-<span class="c">## 二级标题</span>
-<span class="c">### 三级标题</span>
-<span class="c">###### 六级标题</span>
+<p>examples</p>
+<div class="highlight"><pre><span class="c"># First Level Header</span>
+<span class="c">## Second Level Header</span>
+<span class="c">### Third Level Header</span>
+<span class="c">###### Sixth Level Header</span>
 </pre></div>
 
 
 </li>
 </ul>
 <hr />
-<h4>强调</h4>
+<h4>Emphasis</h4>
 <ul>
 <li>
-<p>示例</p>
+<p>examples</p>
 <div class="highlight"><pre><span class="o">-</span> <span class="o">*</span><span class="n">em</span><span class="o">*</span>
 <span class="o">-</span> <span class="o">**</span><span class="n">strong</span><span class="o">**</span>
 <span class="o">-</span> <span class="o">*</span> <span class="n">em</span> <span class="o">*</span>
@@ -103,27 +102,22 @@
 <p><em>em</em></p>
 </li>
 <li><strong>strong</strong></li>
-<li>
-<ul>
-<li>em *  = 如果有空格的话将被当普通字符</li>
-</ul>
-</li>
+<li>* em *  = * will be treated as a literal asterisk if it surrounded with space</li>
 </ul>
 <hr />
-<h4>段落</h4>
+<h4>Paragraphs</h4>
 <ul>
-<li>段落以空行分隔</li>
-<li>自动换行，除非行尾有两空格加回车</li>
+<li>sperated by one or more blank lines</li>
 </ul>
 <hr />
-<h4>链接</h4>
+<h4>Link</h4>
 <ul>
 <li>
-<p>示例</p>
+<p>examples</p>
 <div class="highlight"><pre><span class="o">-</span> <span class="n">This</span> <span class="n">is</span> <span class="p">[</span><span class="n">google</span><span class="p">](</span><span class="n">http</span><span class="o">:</span><span class="c1">//google.com &quot;The google link&quot;), an inline link. </span>
 <span class="o">-</span> <span class="n">This</span> <span class="n">is</span> <span class="p">[</span><span class="n">reference</span><span class="p">][</span><span class="n">ref</span><span class="p">]</span> <span class="n">reference</span><span class="o">-</span><span class="n">style</span> <span class="n">link</span>
 <span class="o">-</span> <span class="p">[</span><span class="n">ref</span><span class="p">]</span><span class="o">:</span> <span class="n">http</span><span class="o">:</span><span class="c1">//google.com &quot;The google link&quot;        </span>
-<span class="o">-</span> <span class="err">自动链接</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">http</span><span class="o">:</span><span class="c1">//google.com&gt;</span>
+<span class="o">-</span> <span class="k">auto</span> <span class="n">link</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">http</span><span class="o">:</span><span class="c1">//google.com&gt;</span>
 </pre></div>
 
 
@@ -132,13 +126,13 @@
 <p>This is <a href="http://google.com" title="THe google link">google</a>, an inline link. </p>
 </li>
 <li>This is <a href="http://google.com" title="The google link">reference</a> reference-style link</li>
-<li><strong>自动链接</strong> = <a href="http://google.com">http://google.com</a></li>
+<li><strong>auto link</strong> = <a href="http://google.com">http://google.com</a></li>
 </ul>
 <hr />
-<h4>图片</h4>
+<h4>Images</h4>
 <ul>
 <li>
-<p>示例</p>
+<p>examples</p>
 <div class="highlight"><pre><span class="o">-</span> <span class="o">!</span><span class="p">[</span><span class="n">Alt</span> <span class="n">text</span><span class="p">](</span><span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">img</span><span class="p">.</span><span class="n">jpg</span> <span class="s">&quot;Optional Title&quot;</span><span class="p">)</span>
 <span class="o">-</span> <span class="o">!</span><span class="p">[</span><span class="n">Alt</span> <span class="n">text</span><span class="p">][</span><span class="kt">id</span><span class="p">]</span>
 </pre></div>
