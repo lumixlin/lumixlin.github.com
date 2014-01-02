@@ -25,7 +25,7 @@
 &lt;li&gt;&lt;code&gt;lftp&lt;/code&gt; = easy use ftp client&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
-&lt;h4&gt;System management&lt;/h4&gt;
+&lt;h4&gt;Package management&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;apt-get&lt;/code&gt;&lt;/p&gt;
