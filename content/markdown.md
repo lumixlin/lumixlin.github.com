@@ -3,7 +3,7 @@ Title: Markdown note
 Slug: markdown
 Tags: note,web 
 
-#### Basic
+### Basic
 - the block-level HTML element in markdown tag should be seperated by blank line and the start and end of element should not be indented.
 - the span-level HTML element has no restriction
 - **break line** = end a line with tow spaces and a return
@@ -11,7 +11,7 @@ Tags: note,web
 
 ----------
 
-#### Lists
+### Lists
 - examples
 
 		- unordered list
@@ -24,14 +24,14 @@ Tags: note,web
 
 ----------
 
-#### Code Blocks
+### Code Blocks
 - start with one tabs, continute until it reach a line with no indentity
 - \`printf()\` will produce a code span `printf()` 
 - `, &` will be translated to HTML entity automatically
 
 ----------
 
-#### Headers
+### Headers
 - examples
 
 		# First Level Header
@@ -41,7 +41,7 @@ Tags: note,web
 
 ----------
 
-#### Emphasis
+### Emphasis
 - examples
 
 		- *em*
@@ -54,12 +54,12 @@ Tags: note,web
 
 ----------
 
-#### Paragraphs 
+### Paragraphs 
 - sperated by one or more blank lines
 
 ----------
 
-#### Link
+### Link
 - examples
 		
 		- This is [google](http://google.com "The google link"), an inline link. 
@@ -75,7 +75,7 @@ Tags: note,web
 
 ----------
 
-#### Images
+### Images
 - examples
 
 		- ![Alt text](/path/to/img.jpg "Optional Title")

@@ -3,35 +3,35 @@ Title: Command Line note
 Slug: cml
 Tags: note,linux
 
-#### Login and authentication
+### Login and authentication
 - `passwd` = change local password
 
 ------
 
-#### Infomation
+### Infomation
 - `date` = show date and time
 - `info` = online document for GNU grograms
 - `whoami` = who is logged onto this terminal
 
 ------
 
-#### File management
+### File management
 
 ------
 
-#### Data manipulation
+### Data manipulation
 - `tr` = translate characters
 - `cut` = cut out columns from a files
 - `paste` = paste columns into a files
 
 ------
 
-#### Networking/communications
+### Networking/communications
 - `lftp` = easy use ftp client
 
 ------
 
-#### Package management
+### Package management
 - `apt-get`
 	+ `install name` = install or update a pakage
 
