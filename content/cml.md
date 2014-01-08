@@ -23,11 +23,14 @@ Tags: note,linux
 - `tr` = translate characters
 - `cut` = cut out columns from a files
 - `paste` = paste columns into a files
+- `xclip -sel clip < data` = put data into clipboard
 
 ------
 
 ### Networking/communications
 - `lftp` = easy use ftp client
+- `nc` = simple TCP/IP server for file sharing. close after one connect
+- `python -m SimpleHTTPServer` simple web server for file sharing. can browse all files in current directory
 
 ------
 
