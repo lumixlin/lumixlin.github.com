@@ -26,21 +26,22 @@
 		</div>
 	</div>
 	<div class="container">
-	<div class="row articleListItem first">
+<div class="container">
+	<div class="row">
+		<div class="span12 articleDetailHeadline">
+			<h1>A Script to Play Pictures and Musics</h1>
+			<h2></h2>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row articleDetail">
 		<div class="span3 articleInfo light"> 
 <p><i class="icon-calendar"></i>&nbsp;Wed 08 January 2014</p> 
 <p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/linux.html">linux  </a>
 	<a href="/tag/shell.html">shell  </a>
 </p>		</div>
-		<div class="span8">
-			<h1>
-				<a href="/playmusic.html" title="A Script to Play Pictures and Musics" rel="bookmark">
-					A Script to Play Pictures and Musics
-					<i class="icon-chevron-right"></i>
-				</a>
-			</h1>
-			<h3></h3>
-			<p class="text-justify"></p>
+		<div class="span8 articleDetailContent">
 			<p><em>I learn this script from</em>  <a href="http://hongjiang.info/script-for-wedding/">blog</a> <em>and make a littile change.</em></p>
 <div class="highlight"><pre>    <span class="err">#</span><span class="o">!</span><span class="err">/bin/bash</span>
 
@@ -55,78 +56,29 @@
 
     <span class="kd">function</span> <span class="nx">show_pic</span><span class="p">()</span> <span class="p">{</span>
         <span class="err">#</span><span class="nx">bg</span> <span class="nx">music</span>
-        <span class="nx">mplayer ...</span></pre></div>
+        <span class="nx">mplayer</span> <span class="o">-</span><span class="nx">playlist</span> <span class="s2">&quot;list&quot;</span> <span class="o">&amp;</span>
+        <span class="err">#</span><span class="nx">show</span> <span class="nx">pictures</span>
+        <span class="nx">feh</span> <span class="o">--</span><span class="nx">cycle</span><span class="o">-</span><span class="nx">once</span> <span class="o">-</span><span class="nx">FD8</span> <span class="s2">&quot;/home/long/Pictures/long&quot;</span>
+    <span class="p">}</span>
+
+    <span class="kd">function</span> <span class="nx">play</span><span class="p">()</span> <span class="p">{</span>
+        <span class="err">#</span><span class="nx">play</span> <span class="nx">music</span>
+        <span class="nx">clean</span> <span class="mi">2</span><span class="o">&gt;</span><span class="err">/dev/null</span>
+        <span class="nx">show_pic</span>
+    <span class="p">}</span>
+
+    <span class="nx">play</span>
+</pre></div>
 		</div>
 	</div>
-
-	<div class="row articleListItem ">
-		<div class="span3 articleInfo light"> 
-<p><i class="icon-calendar"></i>&nbsp;Sat 04 January 2014</p> 
-<p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/note.html">note  </a>
-	<a href="/tag/linux.html">linux  </a>
-</p>		</div>
+</div>
+<div class="container">
+	<div class="row comments">
+		<div class="span3">&nbsp;</div>
 		<div class="span8">
-			<h1>
-				<a href="/shortcut_vim.html" title="Vim Commans And Shortcuts" rel="bookmark">
-					Vim Commans And Shortcuts
-					<i class="icon-chevron-right"></i>
-				</a>
-			</h1>
-			<h3></h3>
-			<p class="text-justify"></p>
-			<h3>Code Commentary (NERDCommenter)</h3>
-<ul>
-<li><code>\cc</code> = <code>// comment current line or seleted texts in visual mode</code></li>
-<li><code>\cm</code> = <code>/* comment with mutipart delimiter */</code></li>
-<li><code>\c$</code> = <code>int a = 0; // comment from cursor to the end of line ...</code></li></ul>
 		</div>
 	</div>
-
-	<div class="row articleListItem ">
-		<div class="span3 articleInfo light"> 
-<p><i class="icon-calendar"></i>&nbsp;Thu 02 January 2014</p> 
-<p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/note.html">note  </a>
-	<a href="/tag/linux.html">linux  </a>
-</p>		</div>
-		<div class="span8">
-			<h1>
-				<a href="/cml.html" title="Command Line note" rel="bookmark">
-					Command Line note
-					<i class="icon-chevron-right"></i>
-				</a>
-			</h1>
-			<h3></h3>
-			<p class="text-justify"></p>
-			<h3>Login and authentication</h3>
-<ul>
-<li><code>passwd</code> = change local password</li>
-</ul>
-<hr />
-<h3>Infomation</h3>
-<ul>
-<li><code>date</code> = show date and time</li>
-<li><code>info</code> = online document for GNU grograms</li>
-<li><code>whoami</code> = who is logged onto this terminal</li>
-</ul>
-<hr />
-<h3>File management</h3>
-<hr />
-<h3>Data manipulation ...</h3>
-		</div>
-	</div>
-		<div class="span3"></div>
-		<div class="span8">
-<div class="pagination pagination-large">
-<ul>
-    <li class="disabled"><a href="#">«</a></li>
-
-		<li class="active"><a href="/tag/linux.html">1</a></li>
-
-		<li class="disabled"><a href="#">»</a></li>
-
-</ul>
-</div>		</div>
-
+</div>
 	</div>
 	<footer class="footer">
 		<div class="row">

@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2014-01-04T00:00:00+08:00</updated><entry><title>Vim Commans And Shortcuts</title><link href="/shortcut_vim.html" rel="alternate"></link><updated>2014-01-04T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-04:shortcut_vim.html</id><summary type="html">&lt;h3&gt;Code Commentary (NERDCommenter)&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2014-01-08T00:00:00+08:00</updated><entry><title>A Script to Play Pictures and Musics</title><link href="/playmusic.html" rel="alternate"></link><updated>2014-01-08T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-08:playmusic.html</id><summary type="html">&lt;p&gt;&lt;em&gt;I learn this script from&lt;/em&gt;  &lt;a href="http://hongjiang.info/script-for-wedding/"&gt;blog&lt;/a&gt; &lt;em&gt;and make a littile change.&lt;/em&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="err"&gt;/bin/bash&lt;/span&gt;
+
+    &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;kill&lt;/span&gt; &lt;span class="nx"&gt;screensaver&lt;/span&gt;
+    &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;screensaver&amp;quot;&lt;/span&gt;
+
+    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;clean&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;kill&lt;/span&gt; &lt;span class="nx"&gt;mplayer&lt;/span&gt;
+        &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;mplayer&amp;quot;&lt;/span&gt;
+        &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;feh&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;show_pic&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;bg&lt;/span&gt; &lt;span class="nx"&gt;music&lt;/span&gt;
+        &lt;span class="nx"&gt;mplayer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;playlist&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;list&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;show&lt;/span&gt; &lt;span class="nx"&gt;pictures&lt;/span&gt;
+        &lt;span class="nx"&gt;feh&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nx"&gt;cycle&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;once&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;FD8&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/home/long/Pictures/long&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;play&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;play&lt;/span&gt; &lt;span class="nx"&gt;music&lt;/span&gt;
+        &lt;span class="nx"&gt;clean&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="err"&gt;/dev/null&lt;/span&gt;
+        &lt;span class="nx"&gt;show_pic&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="nx"&gt;play&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="linux"></category><category term="shell"></category></entry><entry><title>Vim Commans And Shortcuts</title><link href="/shortcut_vim.html" rel="alternate"></link><updated>2014-01-04T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-04:shortcut_vim.html</id><summary type="html">&lt;h3&gt;Code Commentary (NERDCommenter)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;\cc&lt;/code&gt; = &lt;code&gt;// comment current line or seleted texts in visual mode&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;\cm&lt;/code&gt; = &lt;code&gt;/* comment with mutipart delimiter */&lt;/code&gt;&lt;/li&gt;
@@ -53,11 +79,14 @@
 &lt;li&gt;&lt;code&gt;tr&lt;/code&gt; = translate characters&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cut&lt;/code&gt; = cut out columns from a files&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;paste&lt;/code&gt; = paste columns into a files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;xclip -sel clip &amp;lt; data&lt;/code&gt; = put data into clipboard&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Networking/communications&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;lftp&lt;/code&gt; = easy use ftp client&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nc&lt;/code&gt; = simple TCP/IP server for file sharing. close after one connect&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;python -m SimpleHTTPServer&lt;/code&gt; simple web server for file sharing. can browse all files in current directory&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Package management&lt;/h3&gt;
