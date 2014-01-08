@@ -3,6 +3,11 @@ Title: Command Line note
 Slug: cml
 Tags: note,linux
 
+### Skills
+- `cat <(ls)` = use `<(ls)` as a file. Process `ls` used as a file.
+- `ls > >(cat)` = redirect ls to file `>(cat)`.
+
+
 ### Login and authentication
 - `passwd` = change local password
 
@@ -10,12 +15,14 @@ Tags: note,linux
 
 ### Infomation
 - `date` = show date and time
+- `cal` = display calendar and date
 - `info` = online document for GNU grograms
 - `whoami` = who is logged onto this terminal
 
 ------
 
 ### File management
+- `feh` = image viewer
 
 ------
 
