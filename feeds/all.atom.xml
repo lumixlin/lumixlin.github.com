@@ -102,6 +102,13 @@
 &lt;li&gt;&lt;code&gt;\bj, \bk&lt;/code&gt; = switch to previous/next buffer&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
+&lt;h3&gt;Close&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\bc&lt;/code&gt; = close current buffer&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Alt-a-x&lt;/code&gt; = close current panel(tmux panel)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Alt-a-&amp;amp;&lt;/code&gt; = close current window(tmux window)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
 &lt;h3&gt;Latex&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;F5&lt;/code&gt; = insert an environment&lt;/li&gt;
