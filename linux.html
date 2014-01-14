@@ -57,6 +57,10 @@
 
 
 </li>
+<li>
+<p>tmux note
+  tmux login the shell as a login shell, so it dose not run <code>~/.bashrc</code>. some alias in that file do not work, such as <code>alias ls='ls --color=auto'</code>. so, you should insert <code>case $- in *i*) . ~/.bashrc;; esac</code> in <code>~/.bash_profile</code> to run <code>~/.bashrc</code> in tmux</p>
+</li>
 </ul>
 		</div>
 	</div>
