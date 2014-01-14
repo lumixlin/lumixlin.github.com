@@ -11,3 +11,7 @@ Tags: note,linux
 - set the keyboard background brightness
 
 		echo 10 | sudo tee /sys/class/leds/smc::kbd_backlight/brightness
+
+- tmux note
+  tmux login the shell as a login shell, so it dose not run `~/.bashrc`. some alias in that file do not work, such as `alias ls='ls --color=auto'`. so, you should insert `case $- in *i*) . ~/.bashrc;; esac` in `~/.bash_profile` to run `~/.bashrc` in tmux
+	
