@@ -57,8 +57,8 @@
 </ul>
 <hr />
 <ul>
-<li><code>\fl</code> = search line in buffer files.</li>
-<li><code>\ft</code> = search tag(ctag) in buffer files(file in vim buffer).</li>
+<li><code>\fl</code> = search line in buffer files.(file in vim buffer)</li>
+<li><code>\ft</code> = search tag(ctag) in buffer files(file in vim buffer), based on ctags.</li>
 <li><code>\fm</code> = search file on recent used file(the caches stored somewhere). </li>
 <li><code>\fc</code> = search comman.</li>
 </ul>
@@ -71,13 +71,57 @@
 <h3>Navigation</h3>
 <ul>
 <li><code>\bj, \bk</code> = switch to previous/next buffer</li>
+<li><code>:b[n]</code> = switch to buffer n</li>
 </ul>
 <hr />
+<h3>Info Windows</h3>
+<ul>
+<li><code>\bt</code> = toggle buffer window(minibufexpl)</li>
+</ul>
 <h3>Close</h3>
 <ul>
-<li><code>\bc</code> = close current buffer</li>
+<li><code>\bc</code> = close\delete current buffer</li>
+<li><code>\bo</code> = close\delete all buffer but current one</li>
 <li><code>Alt-a-x</code> = close current panel(tmux panel)</li>
 <li><code>Alt-a-&amp;</code> = close current window(tmux window)</li>
+</ul>
+<hr />
+<h3>Vim Internal</h3>
+<hr />
+<p><em>verbs</em></p>
+<ul>
+<li><code>v</code> = visual</li>
+<li><code>c</code> = change</li>
+<li><code>d</code> = delete</li>
+<li><code>y</code> = yank/copy</li>
+</ul>
+<hr />
+<p><em>modifier</em></p>
+<ul>
+<li><code>i</code> = inside</li>
+<li><code>a</code> = around</li>
+<li><code>t</code> = till..find a character(not include the char)</li>
+<li><code>f</code> = find..like till except including tha char(include the char)</li>
+<li><code>/</code> = search..find a string/regx(encluded)</li>
+</ul>
+<hr />
+<p><em>text object</em></p>
+<ul>
+<li><code>w</code> = word</li>
+<li><code>s</code> = sentence</li>
+<li><code>p</code> = paragraph</li>
+<li><code>b</code> = block/parenthese</li>
+<li><code>t</code> = tag, work for html/xml</li>
+</ul>
+<hr />
+<p><em>operate</em></p>
+<ul>
+<li><code>diw</code> = delete inside word(delete the current word)</li>
+<li><code>cis</code> = change inside sentence(change the current sentence)</li>
+<li><code>ci"</code> = change inside quote(change a string inside quotes)</li>
+<li><code>c/foo</code> = change search foo(change untile next occurrence of 'foo')</li>
+<li><code>ctX</code> = chage till X(change evering till X)</li>
+<li><code>vap</code> = visual arround paragraph(visually select this paragraph)</li>
 </ul>
 <hr />
 <h3>Latex</h3>
@@ -101,6 +145,7 @@
 <li><code>d</code> = detach from current session, you can attach by <code>tmux attach</code></li>
 <li><code>[</code> = start copy mode.Then press <code>space</code> start copy, press <code>Enter</code> to copy.</li>
 <li><code>]</code> = paste</li>
+<li><code>t</code> = show system time</li>
 </ul>
 <hr />
 <ul>
