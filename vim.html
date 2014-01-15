@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Lovely Linux </title>
+
+	<link rel="stylesheet" href="/theme/css/bootstrap.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/bootstrap-responsive.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/github.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/github-numbers.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/styles.css" media="screen"/>
+<!--	<link href="http://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet" type="text/css" />
+-->
+	<link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Cantora+One" rel="stylesheet" type="text/css" />
+	<link href="http://martinbrochhaus.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="martinbrochhaus.com Atom Feed">
+</head>
+
+<body>
+	<div class="miniBio">
+		<div class="container">
+			<a class="brand" href="/" title="lumix.lin.com">
+				<img src="/theme/img/me.png" />
+			</a>
+			<span class="miniBioText">I love linux</span>
+		</div>
+	</div>
+	<div class="container">
+<div class="container">
+	<div class="row">
+		<div class="span12 articleDetailHeadline">
+			<h1>Vim note</h1>
+			<h2></h2>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row articleDetail">
+		<div class="span3 articleInfo light"> 
+<p><i class="icon-calendar"></i>&nbsp;created:</p> 
+<p><i class="icon-calendar"></i>&nbsp;updated:2014-01-15</p> 
+<p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/note.html">note  </a>
+	<a href="/tag/linux.html">linux  </a>
+</p>		</div>
+		<div class="span8 articleDetailContent">
+			<h3>Input</h3>
+<p><em>insert mode</em>
+- <code>Ctrl-r reg</code> = insert contents of register <code>reg</code> </p>
+<hr />
+<p><em>normal mode</em></p>
+<ul>
+<li><code>"ap</code> = insert contents of register <code>a</code> at cusor</li>
+</ul>
+<hr />
+<p><em>visual mode</em></p>
+<ul>
+<li><code>p</code> = change selection with contents of default register </li>
+<li><code>"ap"</code> = </li>
+</ul>
+<h3>Search</h3>
+<p><em>normal mode</em></p>
+<ul>
+<li><code>*</code> = search current word </li>
+</ul>
+<p><em>visual mode</em></p>
+<ul>
+<li><code></code> = search the selected string(to find a plugin)</li>
+</ul>
+<h3>Conception</h3>
+<p><em>verbs</em></p>
+<ul>
+<li><code>v</code> = visual</li>
+<li><code>c</code> = change</li>
+<li><code>d</code> = delete</li>
+<li><code>y</code> = yank/copy</li>
+</ul>
+<hr />
+<p><em>modifier</em></p>
+<ul>
+<li><code>i</code> = inside</li>
+<li><code>a</code> = around</li>
+<li><code>t</code> = till..find a character(not include the char)</li>
+<li><code>f</code> = find..like till except including tha char(include the char)</li>
+<li><code>/</code> = search..find a string/regx(encluded)</li>
+</ul>
+<hr />
+<p><em>text object</em></p>
+<ul>
+<li><code>w</code> = word</li>
+<li><code>s</code> = sentence</li>
+<li><code>p</code> = paragraph</li>
+<li><code>b</code> = block/parenthese</li>
+<li><code>t</code> = tag, work for html/xml</li>
+</ul>
+<hr />
+<p><em>operate</em></p>
+<ul>
+<li><code>diw</code> = delete inside word(delete the current word)</li>
+<li><code>cis</code> = change inside sentence(change the current sentence)</li>
+<li><code>ci"</code> = change inside quote(change a string inside quotes)</li>
+<li><code>c/foo</code> = change search foo(change untile next occurrence of 'foo')</li>
+<li><code>ctX</code> = chage till X(change evering till X)</li>
+<li><code>vap</code> = visual arround paragraph(visually select this paragraph)</li>
+</ul>
+<hr />
+<p><em>register</em></p>
+<ul>
+<li><code>"a</code> = use register <code>a</code> in the following operation, <code>a</code> can be another char</li>
+<li><code>0</code> = yank register </li>
+<li><code>"</code> = the default register</li>
+<li><code>%</code> = the current filename</li>
+<li><code>*</code> = the cliboard contents(X11:primary selection)</li>
+<li><code>+</code> = the cliboard contents</li>
+<li><code>/</code> = the last pattern</li>
+<li><code>:</code> = the last command-line</li>
+<li><code>.</code> = the last inserted text</li>
+<li><code>-</code> = the last small(less than a line) delete</li>
+<li><code>help i_CTRL-R</code> = help file</li>
+</ul>
+<h3>Others</h3>
+<ul>
+<li><code>:noh</code> = reset hightlight when you search</li>
+</ul>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row comments">
+		<div class="span3">&nbsp;</div>
+		<div class="span8">
+		</div>
+	</div>
+</div>
+	</div>
+	<footer class="footer">
+		<div class="row">
+			<div class="span6">
+			</div>
+			<div class="span4">
+			</div>
+		</div>
+	</footer>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="/theme/js/bootstrap.min.js"></script>
+</body>
