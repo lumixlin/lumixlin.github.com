@@ -51,21 +51,20 @@
 </ul>
 <hr />
 <h3>Quick File, Tag, Line Access (Ctrlp)</h3>
+<p><em>search mode</em></p>
 <ul>
 <li><code>\ff</code> = open promp window for searching(find file mode)</li>
-<li><code>&lt;c-c&gt;</code> = close promp window</li>
-</ul>
-<hr />
-<ul>
 <li><code>\fl</code> = search line in buffer files.(file in vim buffer)</li>
 <li><code>\ft</code> = search tag(ctag) in buffer files(file in vim buffer), based on ctags.</li>
 <li><code>\fm</code> = search file on recent used file(the caches stored somewhere). </li>
 <li><code>\fc</code> = search comman.</li>
 </ul>
 <hr />
+<p><em>quickfix</em></p>
 <ul>
 <li><code>&lt;c-j&gt;, &lt;c-k&gt;</code> = move up and down in listed items.</li>
 <li><code>&lt;c-f&gt;, &lt;c-b&gt;</code> = change search mode forward and backward.</li>
+<li><code>&lt;c-c&gt;</code> = close promp window</li>
 </ul>
 <hr />
 <h3>Navigation</h3>
@@ -78,6 +77,7 @@
 <ul>
 <li><code>\bt</code> = toggle buffer window(minibufexpl)</li>
 </ul>
+<hr />
 <h3>Close</h3>
 <ul>
 <li><code>\bc</code> = close\delete current buffer</li>
@@ -87,7 +87,6 @@
 </ul>
 <hr />
 <h3>Vim Internal</h3>
-<hr />
 <p><em>verbs</em></p>
 <ul>
 <li><code>v</code> = visual</li>
@@ -134,13 +133,14 @@
 <li><code>\ls</code> = view in current position</li>
 <li><code>\rf</code> = folding</li>
 </ul>
+<hr />
 <h3>Terminal (tmux)</h3>
 <ul>
 <li>Server &gt; Session &gt; Window &gt; Pane</li>
 </ul>
 <hr />
+<p><em>Global control</em></p>
 <ul>
-<li><em>Global control</em></li>
 <li><code>?</code> = list all shortcut</li>
 <li><code>d</code> = detach from current session, you can attach by <code>tmux attach</code></li>
 <li><code>[</code> = start copy mode.Then press <code>space</code> start copy, press <code>Enter</code> to copy.</li>
@@ -148,8 +148,8 @@
 <li><code>t</code> = show system time</li>
 </ul>
 <hr />
+<p><em>Widows control</em></p>
 <ul>
-<li><em>Widows control</em></li>
 <li><code>w</code> = switch window by selecting form window list </li>
 <li><code>p, n</code> = switch to previous window or next window</li>
 <li><code>,</code> = rename current window</li>
@@ -157,8 +157,8 @@
 <li><code>&amp;</code> = close current window</li>
 </ul>
 <hr />
+<p><em>Panel control</em></p>
 <ul>
-<li><em>Panel control</em></li>
 <li><code>%</code> = splict current panel into two, horizentolly</li>
 <li><code>"</code> = splict current panel into two, vertically</li>
 <li><code>!</code> = move current panel to a new window</li>
