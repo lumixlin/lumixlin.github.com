@@ -1,81 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2014-08-09T00:00:00+08:00</updated><entry><title>Git note</title><link href="/git.html" rel="alternate"></link><updated>2014-08-09T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-08-09:git.html</id><summary type="html">&lt;h3&gt;View Code Change&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git diff&lt;/code&gt; = view changes between working directory and staging area (all files)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git diff --staged&lt;/code&gt; = view changes between staging  area and remository (all files)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git diff version&lt;/code&gt; = view changes between working and version (all files)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git diff version1 version2&lt;/code&gt; = view changes between two version (all files)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git diff branch1 branch2&lt;/code&gt; = view change between branch1 and branch2 (all files)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git diff file1&lt;/code&gt; = view changes between working directory and staging area (only file1)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Stage the changes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git add -p&lt;/code&gt; = stage change in interactive mode, you can select which block to stage. when input with &lt;code&gt;s&lt;/code&gt;, you can split the block into smaller.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Remove, Move, Untrack files&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git rm file&lt;/code&gt; = remove file from index and staging area&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git mv oldname newname&lt;/code&gt; = mv file from old name to new name&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git rm --cached file&lt;/code&gt; = unstaged file. remove file from index but not in staging area&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Rollback&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git reset --soft version&lt;/code&gt; = set remository(HEAD) to version &lt;code&gt;version&lt;/code&gt;, but keep working directory and staging area&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git reset --mixed version&lt;/code&gt; = set the remository and staging area to version &lt;code&gt;version&lt;/code&gt;, but keep working directory&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git reset --hard version&lt;/code&gt; = set remository, staging area and working directory to version &lt;code&gt;version&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>Something to do</title><link href="/todo.html" rel="alternate"></link><updated>2014-01-13T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-13:todo.html</id><summary type="html">&lt;h3&gt;graphic&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;graphic&lt;/em&gt; = draw the flow char, system diagrams.&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="ignore"></category></entry><entry><title>Linux utility</title><link href="/linux.html" rel="alternate"></link><updated>2014-01-08T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-08:linux.html</id><summary type="html">&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;set the screen brightness in ubuntu&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="mi"&gt;9000&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;tee&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;class&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;backlight&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;gmux_backlight&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;brightness&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;set the keyboard background brightness&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;tee&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;class&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;leds&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;smc&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;kbd_backlight&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;brightness&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;tmux note
-  tmux login the shell as a login shell, so it dose not run &lt;code&gt;~/.bashrc&lt;/code&gt;. some alias in that file do not work, such as &lt;code&gt;alias ls='ls --color=auto'&lt;/code&gt;. so, you should insert &lt;code&gt;case $- in *i*) . ~/.bashrc;; esac&lt;/code&gt; in &lt;code&gt;~/.bash_profile&lt;/code&gt; to run &lt;code&gt;~/.bashrc&lt;/code&gt; in tmux&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Linux shortcut&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Ctrl-Alt-l&lt;/code&gt; = Lock screen&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>A Script to Play Pictures and Musics</title><link href="/playmusic.html" rel="alternate"></link><updated>2014-01-08T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-08:playmusic.html</id><summary type="html">&lt;p&gt;&lt;em&gt;I learn this script from&lt;/em&gt;  &lt;a href="http://hongjiang.info/script-for-wedding/"&gt;blog&lt;/a&gt; &lt;em&gt;and make a littile change.&lt;/em&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="err"&gt;/bin/bash&lt;/span&gt;
-
-    &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;kill&lt;/span&gt; &lt;span class="nx"&gt;screensaver&lt;/span&gt;
-    &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;screensaver&amp;quot;&lt;/span&gt;
-
-    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;clean&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;kill&lt;/span&gt; &lt;span class="nx"&gt;mplayer&lt;/span&gt;
-        &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;mplayer&amp;quot;&lt;/span&gt;
-        &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;feh&amp;quot;&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-
-    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;show_pic&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;bg&lt;/span&gt; &lt;span class="nx"&gt;music&lt;/span&gt;
-        &lt;span class="nx"&gt;mplayer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;playlist&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;list&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt;
-        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;show&lt;/span&gt; &lt;span class="nx"&gt;pictures&lt;/span&gt;
-        &lt;span class="nx"&gt;feh&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nx"&gt;cycle&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;once&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;FD8&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/home/long/Pictures/long&amp;quot;&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-
-    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;play&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;play&lt;/span&gt; &lt;span class="nx"&gt;music&lt;/span&gt;
-        &lt;span class="nx"&gt;clean&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="err"&gt;/dev/null&lt;/span&gt;
-        &lt;span class="nx"&gt;show_pic&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-
-    &lt;span class="nx"&gt;play&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="linux"></category><category term="shell"></category></entry><entry><title>Vim Commans And Shortcuts</title><link href="/shortcut_vim.html" rel="alternate"></link><updated>2014-01-04T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-04:shortcut_vim.html</id><summary type="html">&lt;h3&gt;Code Commentary (NERDCommenter)&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2014-01-14T00:00:00+08:00</updated><entry><title>Vim Commans And Shortcuts</title><link href="/shortcut_vim.html" rel="alternate"></link><updated>2014-01-14T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-14:shortcut_vim.html</id><summary type="html">&lt;h3&gt;Code Commentary (NERDCommenter)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;\cc&lt;/code&gt; = &lt;code&gt;// comment current line or seleted texts in visual mode&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;\cm&lt;/code&gt; = &lt;code&gt;/* comment with mutipart delimiter */&lt;/code&gt;&lt;/li&gt;
@@ -196,7 +120,83 @@
 &lt;li&gt;&lt;code&gt;"&lt;/code&gt; = splict current panel into two, vertically&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;!&lt;/code&gt; = move current panel to a new window&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;x&lt;/code&gt; = close current panel&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>Command Line note</title><link href="/cml.html" rel="alternate"></link><updated>2014-01-02T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-02:cml.html</id><summary type="html">&lt;h3&gt;Skills&lt;/h3&gt;
+&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>Something to do</title><link href="/todo.html" rel="alternate"></link><updated>2014-01-13T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-13:todo.html</id><summary type="html">&lt;h3&gt;graphic&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;graphic&lt;/em&gt; = draw the flow char, system diagrams.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="ignore"></category></entry><entry><title>Git note</title><link href="/git.html" rel="alternate"></link><updated>2014-01-09T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-09:git.html</id><summary type="html">&lt;h3&gt;View Code Change&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git diff&lt;/code&gt; = view changes between working directory and staging area (all files)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git diff --staged&lt;/code&gt; = view changes between staging  area and remository (all files)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git diff version&lt;/code&gt; = view changes between working and version (all files)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git diff version1 version2&lt;/code&gt; = view changes between two version (all files)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git diff branch1 branch2&lt;/code&gt; = view change between branch1 and branch2 (all files)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git diff file1&lt;/code&gt; = view changes between working directory and staging area (only file1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Stage the changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add -p&lt;/code&gt; = stage change in interactive mode, you can select which block to stage. when input with &lt;code&gt;s&lt;/code&gt;, you can split the block into smaller.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Remove, Move, Untrack files&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git rm file&lt;/code&gt; = remove file from index and staging area&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git mv oldname newname&lt;/code&gt; = mv file from old name to new name&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git rm --cached file&lt;/code&gt; = unstaged file. remove file from index but not in staging area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Rollback&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset --soft version&lt;/code&gt; = set remository(HEAD) to version &lt;code&gt;version&lt;/code&gt;, but keep working directory and staging area&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --mixed version&lt;/code&gt; = set the remository and staging area to version &lt;code&gt;version&lt;/code&gt;, but keep working directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard version&lt;/code&gt; = set remository, staging area and working directory to version &lt;code&gt;version&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>Linux utility</title><link href="/linux.html" rel="alternate"></link><updated>2014-01-08T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-08:linux.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;set the screen brightness in ubuntu&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="mi"&gt;9000&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;tee&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;class&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;backlight&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;gmux_backlight&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;brightness&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;set the keyboard background brightness&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;tee&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;class&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;leds&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;smc&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;kbd_backlight&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;brightness&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tmux note
+  tmux login the shell as a login shell, so it dose not run &lt;code&gt;~/.bashrc&lt;/code&gt;. some alias in that file do not work, such as &lt;code&gt;alias ls='ls --color=auto'&lt;/code&gt;. so, you should insert &lt;code&gt;case $- in *i*) . ~/.bashrc;; esac&lt;/code&gt; in &lt;code&gt;~/.bash_profile&lt;/code&gt; to run &lt;code&gt;~/.bashrc&lt;/code&gt; in tmux&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Linux shortcut&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Ctrl-Alt-l&lt;/code&gt; = Lock screen&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>A Script to Play Pictures and Musics</title><link href="/playmusic.html" rel="alternate"></link><updated>2014-01-08T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-08:playmusic.html</id><summary type="html">&lt;p&gt;&lt;em&gt;I learn this script from&lt;/em&gt;  &lt;a href="http://hongjiang.info/script-for-wedding/"&gt;blog&lt;/a&gt; &lt;em&gt;and make a littile change.&lt;/em&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="err"&gt;/bin/bash&lt;/span&gt;
+
+    &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;kill&lt;/span&gt; &lt;span class="nx"&gt;screensaver&lt;/span&gt;
+    &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;screensaver&amp;quot;&lt;/span&gt;
+
+    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;clean&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;kill&lt;/span&gt; &lt;span class="nx"&gt;mplayer&lt;/span&gt;
+        &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;mplayer&amp;quot;&lt;/span&gt;
+        &lt;span class="nx"&gt;killall&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;feh&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;show_pic&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;bg&lt;/span&gt; &lt;span class="nx"&gt;music&lt;/span&gt;
+        &lt;span class="nx"&gt;mplayer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;playlist&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;list&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;show&lt;/span&gt; &lt;span class="nx"&gt;pictures&lt;/span&gt;
+        &lt;span class="nx"&gt;feh&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nx"&gt;cycle&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;once&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;FD8&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/home/long/Pictures/long&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;play&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="nx"&gt;play&lt;/span&gt; &lt;span class="nx"&gt;music&lt;/span&gt;
+        &lt;span class="nx"&gt;clean&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="err"&gt;/dev/null&lt;/span&gt;
+        &lt;span class="nx"&gt;show_pic&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="nx"&gt;play&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="linux"></category><category term="shell"></category></entry><entry><title>Command Line note</title><link href="/cml.html" rel="alternate"></link><updated>2014-01-02T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-02:cml.html</id><summary type="html">&lt;h3&gt;Skills&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;cat &amp;lt;(ls)&lt;/code&gt; = use &lt;code&gt;&amp;lt;(ls)&lt;/code&gt; as a file. Process &lt;code&gt;ls&lt;/code&gt; used as a file.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ls &amp;gt; &amp;gt;(cat)&lt;/code&gt; = redirect ls to file &lt;code&gt;&amp;gt;(cat)&lt;/code&gt;.&lt;/li&gt;
