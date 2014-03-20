@@ -1,5 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-01-15T00:00:00+08:00</updated><entry><title>Learing Vim</title><link href="/vim.html" rel="alternate"></link><updated>2014-01-15T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-15:vim.html</id><summary type="html">&lt;h3&gt;Input&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-03-20T00:00:00+08:00</updated><entry><title>2014-03-20</title><link href="/2014-03-20.html" rel="alternate"></link><updated>2014-03-20T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-03-20:2014-03-20.html</id><summary type="html">&lt;h3&gt;前言&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;已经很久没写了，最近临近毕业，事情比较多也比较杂。一直很想留点记忆但一直没动手。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;二月中&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;二月中公司要求去实习，说实在话不是很想去的，论文还还没写完实在没时间，但因为去年11月份答应今年要过去现在反悔不大好。然后就答应去了。当时压力很大，一方面导师这边还没搞定，只是去年跟他说过，现在去跟他说他还不一定能答应；另一方面是自己问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;二月底&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;二月底回到广州开始弄入职体检，还发生了一些波折。或许是上天的眷恋，嗯，确实是眷恋。刚体检完就看到学院的答辩安排。哇擦，时间那么紧，完全出乎意料。然后就一直纠结与去杭州还是不去杭州的问题，去，那论文肯定时间不够；不去，人家都安排你去体检了，你还好意思说不？后来，后来我是怎么度过这段日子的，还有我是怎么选择的，依稀可见。最后，还是公司主管人挺好的，让我毕业后直接入职。非常感谢！我会在以后工作的日子以我出设的工作来报答的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;三月初&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;公司那边搞定了，开始搞论文。时间很紧，很多事没做。期间论文没怎么写，却花了一周的时间每日每页地写代码实现方案。我问自己，你到底要不要毕业了？论文必须有，但实现不一定要，而我却花了那么长时间在做实现。那一个星期压力确实很大，一切东西都是新的，没日没夜在写代码、调试代码。记得我花了2天的时间实现了师弟2周做的东西。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;三月中&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;代码算是写好了，测试数据也出来了，论文也写了好几章了。但导师说，希望你能把方案在Indivo上实现。然后，我就没日没夜地继续写代码了。还好，只用了3天多就在之前的系统上增加了自己的方案。但这只是初步，后面还需要研究如何在Indivo2.0上实现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;现在&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这2天实在累坏了，基本晚上11点半才回到宿舍，洗完澡马上上床睡觉。可经常睡不着。今天把系统原型跑起来了，终于松了一点。晚上开始写论文最后一章。最近，我一直在鼓励自己，'Its not so bad',比起二月底，确实远没那么糟糕，我一定要加油！&lt;/p&gt;
+&lt;/blockquote&gt;</summary><category term="diary"></category></entry><entry><title>Markdown note</title><link href="/markdown.html" rel="alternate"></link><updated>2014-03-20T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-03-20:markdown.html</id><summary type="html">&lt;h3&gt;Basic&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the block-level HTML element in markdown tag should be seperated by blank line and the start and end of element should not be indented.&lt;/li&gt;
+&lt;li&gt;the span-level HTML element has no restriction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;break line&lt;/strong&gt; = end a line with tow spaces and a return&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Horizontal rules&lt;/strong&gt; = -----------&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;indentity&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;first&lt;/span&gt; &lt;span class="n"&gt;levele&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;second&lt;/span&gt; &lt;span class="n"&gt;level&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;threed&lt;/span&gt; &lt;span class="n"&gt;level&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Lists&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;examples&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;unordered&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;unordered&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
+&lt;span class="mf"&gt;1.&lt;/span&gt; &lt;span class="n"&gt;orderred&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
+&lt;span class="mf"&gt;2.&lt;/span&gt; &lt;span class="n"&gt;orderred&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
+&lt;span class="mf"&gt;4.&lt;/span&gt; &lt;span class="n"&gt;orderred&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the actual numbers in list have no effect on HTML output &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Code Blocks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;start with one tabs, continute until it reach a line with no indentity&lt;/li&gt;
+&lt;li&gt;`printf()` will produce a code span &lt;code&gt;printf()&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;, &amp;amp;&lt;/code&gt; will be translated to HTML entity automatically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Headers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;examples&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;# First Level Header&lt;/span&gt;
+&lt;span class="c"&gt;## Second Level Header&lt;/span&gt;
+&lt;span class="c"&gt;### Third Level Header&lt;/span&gt;
+&lt;span class="c"&gt;###### Sixth Level Header&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Emphasis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;examples&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;em&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;strong&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;em&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;em&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;* em *  = * will be treated as a literal asterisk if it surrounded with space&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Paragraphs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;sperated by one or more blank lines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Link&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;examples&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;google&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//google.com &amp;quot;The google link&amp;quot;), an inline link. &lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;reference&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="n"&gt;ref&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="n"&gt;reference&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;style&lt;/span&gt; &lt;span class="n"&gt;link&lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ref&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//google.com &amp;quot;The google link&amp;quot;        &lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="k"&gt;auto&lt;/span&gt; &lt;span class="n"&gt;link&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//google.com&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is &lt;a href="http://google.com" title="THe google link"&gt;google&lt;/a&gt;, an inline link. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;This is &lt;a href="http://google.com" title="The google link"&gt;reference&lt;/a&gt; reference-style link&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;auto link&lt;/strong&gt; = &lt;a href="http://google.com"&gt;http://google.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Images&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;examples&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Alt&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jpg&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Optional Title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Alt&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="kt"&gt;id&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="note"></category><category term="web"></category></entry><entry><title>Learing Vim</title><link href="/vim.html" rel="alternate"></link><updated>2014-01-15T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-15:vim.html</id><summary type="html">&lt;h3&gt;Input&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;insert mode&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Ctrl-r reg&lt;/code&gt; = insert contents of register &lt;code&gt;reg&lt;/code&gt; &lt;/li&gt;
@@ -13,7 +148,6 @@
 &lt;p&gt;&lt;em&gt;visual mode&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;p&lt;/code&gt; = change selection with contents of default register &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;"ap"&lt;/code&gt; = &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Search&lt;/h3&gt;
@@ -179,6 +313,7 @@
 &lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>Something to do</title><link href="/todo.html" rel="alternate"></link><updated>2014-01-13T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-13:todo.html</id><summary type="html">&lt;h3&gt;graphic&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;graphic&lt;/em&gt; = draw the flow char, system diagrams.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;pikz/pgf&lt;/em&gt; &lt;/li&gt;
 &lt;/ul&gt;</summary><category term="ignore"></category></entry><entry><title>Git note</title><link href="/git.html" rel="alternate"></link><updated>2014-01-09T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-09:git.html</id><summary type="html">&lt;h3&gt;View Code Change&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git diff&lt;/code&gt; = view changes between working directory and staging area (all files)&lt;/li&gt;
@@ -360,106 +495,7 @@
 &lt;li&gt;&lt;code&gt;pure name&lt;/code&gt; = unistall package and remove configure file&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>Markdown note</title><link href="/markdown.html" rel="alternate"></link><updated>2014-01-02T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-02:markdown.html</id><summary type="html">&lt;h3&gt;Basic&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;the block-level HTML element in markdown tag should be seperated by blank line and the start and end of element should not be indented.&lt;/li&gt;
-&lt;li&gt;the span-level HTML element has no restriction&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;break line&lt;/strong&gt; = end a line with tow spaces and a return&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Horizontal rules&lt;/strong&gt; = -----------&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Lists&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;examples&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;unordered&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;unordered&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
-&lt;span class="mf"&gt;1.&lt;/span&gt; &lt;span class="n"&gt;orderred&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
-&lt;span class="mf"&gt;2.&lt;/span&gt; &lt;span class="n"&gt;orderred&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
-&lt;span class="mf"&gt;4.&lt;/span&gt; &lt;span class="n"&gt;orderred&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;the actual numbers in list have no effect on HTML output &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Code Blocks&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;start with one tabs, continute until it reach a line with no indentity&lt;/li&gt;
-&lt;li&gt;`printf()` will produce a code span &lt;code&gt;printf()&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;, &amp;amp;&lt;/code&gt; will be translated to HTML entity automatically&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Headers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;examples&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;# First Level Header&lt;/span&gt;
-&lt;span class="c"&gt;## Second Level Header&lt;/span&gt;
-&lt;span class="c"&gt;### Third Level Header&lt;/span&gt;
-&lt;span class="c"&gt;###### Sixth Level Header&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Emphasis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;examples&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;em&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;strong&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;em&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;em&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;* em *  = * will be treated as a literal asterisk if it surrounded with space&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Paragraphs&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;sperated by one or more blank lines&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Link&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;examples&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;google&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//google.com &amp;quot;The google link&amp;quot;), an inline link. &lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;reference&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="n"&gt;ref&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="n"&gt;reference&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;style&lt;/span&gt; &lt;span class="n"&gt;link&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ref&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//google.com &amp;quot;The google link&amp;quot;        &lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="k"&gt;auto&lt;/span&gt; &lt;span class="n"&gt;link&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//google.com&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This is &lt;a href="http://google.com" title="THe google link"&gt;google&lt;/a&gt;, an inline link. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;This is &lt;a href="http://google.com" title="The google link"&gt;reference&lt;/a&gt; reference-style link&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;auto link&lt;/strong&gt; = &lt;a href="http://google.com"&gt;http://google.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Images&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;examples&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Alt&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jpg&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Optional Title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Alt&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="kt"&gt;id&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="note"></category><category term="web"></category></entry><entry><title>2015 Todo</title><link href="/plan.html" rel="alternate"></link><updated>2014-01-02T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-02:plan.html</id><summary type="html">&lt;h3&gt;Books&lt;/h3&gt;
+&lt;/ul&gt;</summary><category term="note"></category><category term="linux"></category></entry><entry><title>2015 Todo</title><link href="/plan.html" rel="alternate"></link><updated>2014-01-02T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-01-02:plan.html</id><summary type="html">&lt;h3&gt;Books&lt;/h3&gt;
 &lt;h3&gt;Tools&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Context &lt;/li&gt;
