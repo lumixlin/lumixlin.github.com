@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Lovely Linux </title>
+
+	<link rel="stylesheet" href="/theme/css/bootstrap.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/bootstrap-responsive.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/github.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/github-numbers.css" media="screen"/>
+	<link rel="stylesheet" href="/theme/css/styles.css" media="screen"/>
+<!--	<link href="http://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet" type="text/css" />
+-->
+	<link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Cantora+One" rel="stylesheet" type="text/css" />
+	<link href="http://martinbrochhaus.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="martinbrochhaus.com Atom Feed">
+</head>
+
+<body>
+	<div class="miniBio">
+		<div class="container">
+			<a class="brand" href="/" title="lumix.lin.com">
+				<img src="/theme/img/me.png" />
+			</a>
+			<span class="miniBioText">I love linux</span>
+		</div>
+	</div>
+	<div class="container">
+<div class="container">
+	<div class="row">
+		<div class="span12 articleDetailHeadline">
+			<h1>Vim 查找替换</h1>
+			<h2></h2>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row articleDetail">
+		<div class="span3 articleInfo light"> 
+<p><i class="icon-calendar"></i>&nbsp;updated:2014-03-26</p> 
+<p><i class="icon-calendar"></i>&nbsp;created:2014-01-15</p> 
+<p class="articleTags"><i class="icon-tag"></i>&nbsp;tags:	<a href="/tag/note.html">note  </a>
+	<a href="/tag/vim.html">vim  </a>
+</p>		</div>
+		<div class="span8 articleDetailContent">
+			<h3>命令</h3>
+<div class="highlight"><pre><span class="o">:</span><span class="p">[</span><span class="n">range</span><span class="p">]</span><span class="n">s</span><span class="o">/</span><span class="p">{</span><span class="n">pattern</span><span class="p">}</span><span class="o">/</span><span class="p">{</span><span class="n">string</span><span class="p">}</span><span class="o">/</span><span class="p">[</span><span class="n">flags</span><span class="p">]</span> <span class="p">[</span><span class="n">count</span><span class="p">]</span>
+</pre></div>
+
+
+<p>range</p>
+<blockquote>
+<ul>
+<li><code>[%]</code> 整个文件</li>
+<li><code>[20,60]</code> 20行至60行</li>
+<li><code>[.,$]</code> 从当前到尾行</li>
+</ul>
+</blockquote>
+<p>flags</p>
+<blockquote>
+<ul>
+<li><code>[g]</code> 当前行所有匹配都替换</li>
+<li><code>[c]</code> 交互式</li>
+<li><code>[i]</code> 忽略大小写</li>
+</ul>
+</blockquote>
+<p>当使用交互式时提示输入<code>(y/n/a/q/l/^E/^Y)</code>,分别代表：</p>
+<blockquote>
+<ul>
+<li><code>y</code> = Yes</li>
+<li><code>n</code> = No</li>
+<li><code>a</code> = all</li>
+<li><code>q</code> = quit</li>
+<li><code>l</code> = last(替换当前，剩下不替换)</li>
+<li><code>^E</code> = 向上滚屏</li>
+<li><code>^Y</code> = 向下滚屏 </li>
+</ul>
+</blockquote>
+<h3>例子</h3>
+<blockquote>
+<ol>
+<li>
+<p><code>:%s/old-text/new-text/gc</code></p>
+<p>用new-text替换文件中所有的old-text, 每次替换前需要用户确认，</p>
+</li>
+<li>
+<p><code>:%s/\&lt;old-word\&gt;/new-word/g</code></p>
+<p>匹配整个单词并替换。当然使用正则表达式，你可以实现更多复杂的匹配
+</p>
+</li>
+<li>
+<p><code>:%s//new-text/g</code></p>
+<p>根据上次匹配替换为new-text</p>
+</li>
+<li>
+<p><code>:%s/old-text/^r^w/g</code></p>
+<p>将所有old-text替换为当前光标下的word
+</p>
+</li>
+<li>
+<p><code>:%s/old-text/^r^a/g</code></p>
+<p>将所有old-text替换为当前光标下的WORD（空格符之间）
+</p>
+</li>
+<li>
+<p><code>:%s/old-text/^ra/g</code></p>
+<p>将所有old-text替换为寄存器a的内容</p>
+</li>
+<li>
+<p><code>:%s/old-text/^r*/g</code></p>
+<p>将所有old-text替换为系统剪切板的内容</p>
+</li>
+</ol>
+</blockquote>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row comments">
+		<div class="span3">&nbsp;</div>
+		<div class="span8">
+		</div>
+	</div>
+</div>
+	</div>
+	<footer class="footer">
+		<div class="row">
+			<div class="span6">
+			</div>
+			<div class="span4">
+			</div>
+		</div>
+	</footer>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="/theme/js/bootstrap.min.js"></script>
+</body>
