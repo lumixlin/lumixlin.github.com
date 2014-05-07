@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-03-26T00:00:00+08:00</updated><entry><title>Learing Vim</title><link href="/vim.html" rel="alternate"></link><updated>2014-03-26T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-03-26:vim.html</id><summary type="html">&lt;h3&gt;Input&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lovely Linux</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-05-07T00:00:00+08:00</updated><entry><title>Python virtual environment note</title><link href="/python-vir.html" rel="alternate"></link><updated>2014-05-07T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-05-07:python-vir.html</id><summary type="html">&lt;h3&gt;virtualenvwrapper&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;workon&lt;/code&gt; = list all virtual environment&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkvirtualenv [name]&lt;/code&gt; = make vir-env named name&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;workon [name]&lt;/code&gt; = start env named name&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rmvirtualenv [name]&lt;/code&gt; = remove env&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;deactivate&lt;/code&gt; = stop current env&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="note"></category><category term="python"></category></entry><entry><title>Learing Vim</title><link href="/vim.html" rel="alternate"></link><updated>2014-03-26T00:00:00+08:00</updated><author><name>Lumix.lin</name></author><id>tag:,2014-03-26:vim.html</id><summary type="html">&lt;h3&gt;Input&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;insert mode&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Ctrl-r reg&lt;/code&gt; = insert contents of register &lt;code&gt;reg&lt;/code&gt; &lt;/li&gt;
